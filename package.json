@@ -1,0 +1,54 @@
+{
+    "author": "tschrock123@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "sdk3-test",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "SDK3 Test",
+        "enableMultiJS": false,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/1x1.png",
+                    "name": "IMAGE_BG_1_COLOR",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/evil_pinkie_pie_sized_BlackAndWhite.png",
+                    "name": "IMAGE_BG_0_COLOR",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/pinkie_pie_baw.png",
+                    "name": "IMAGE_BG_1_BAW",
+                    "type": "png-trans"
+                },
+                {
+                    "file": "fonts/Roboto-Bold.ttf",
+                    "name": "ROBOTO_BOLD_40",
+                    "type": "font"
+                },
+                {
+                    "file": "images/evil_pinkie_pie_sized_BlackAndWhite_tweeked.png",
+                    "name": "IMAGE_BG_0_BAW",
+                    "type": "png-trans"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt"
+        ],
+        "uuid": "1f6ed4e1-176f-4b2b-acc5-3cbe54e4c55b",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
